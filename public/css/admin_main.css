@@ -1,0 +1,73 @@
+h1.page-header {
+    margin-top: -5px;
+}
+
+.sidebar {
+    padding-left: 0;
+}
+
+.main-container { 
+    background: #FFF;
+    padding-top: 15px;
+    margin-top: -20px;
+}
+
+.footer {
+    width: 100%;
+}  
+
+/*Dashboard*/
+#num_entries{
+	display: inline-block;
+	width: 75px;
+}
+
+#mytable{
+	text-align: center;
+}
+#mytable th{
+	text-align: center;
+}
+
+.admin-ctrl-btns{
+	margin: 20px 0;
+}
+
+.sort-arrows i {
+	color: #9c9c9c;
+}
+
+.search{
+	text-indent: 8px;
+}
+
+.add-member-settings{
+    margin-top: 7px;
+}
+
+.add-member-settings div{
+	padding: 0;
+}
+.add-member-settings div input[type=radio]{
+	float: left;
+} 
+.add-member-settings div .radio-name{
+	float: left;
+	margin-left: 3px;
+	margin-right: 10px;
+}
+
+
+
+@media (min-width: 768px){
+	#addTimeframeModal .modal-dialog{
+		width: 85% !important;
+	}
+}
+
+.wickedpicker{
+	z-index: 10000 !important;
+}
+#tf_team_member{
+	width: 263%;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "tmq-worklog",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "wickedpicker": "^0.4.1"
+  }
+}

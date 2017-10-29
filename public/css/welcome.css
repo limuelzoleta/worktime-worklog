@@ -1,0 +1,43 @@
+/*home slider*/
+.carousel .item .slider-image{
+	height: 550px;
+	background-size: cover;
+}
+.row{
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+.best-deals{
+	height: 360px;
+	vertical-align: center;
+	background-image: url('../images/best_deals.jpg');
+
+	background-size: cover;
+}
+.best-deals a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.best-deals a .deals-title{
+	margin: 120px auto 0;	
+	width: 65%;
+	font-size: 45px;
+	font-family: 'Raleway';
+	font-weight: 600;
+	background-color: rgba(84, 165, 195, 0.6);
+	border: 2px solid #ffffff;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;	
+
+}
+.best-deals a .deals-title:hover{
+	background-color: rgba(84, 165, 195, 0.75);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+}
+
+.featured-cat{
+	height: 180px;
+}
